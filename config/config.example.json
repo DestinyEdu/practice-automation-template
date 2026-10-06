@@ -1,0 +1,82 @@
+{
+  "practice_name": "Demo Practice",
+  "practice_type": "gp",
+  "sign_off": "Your Friendly Doctor",
+  "practice_phone": "+27000000000",
+  "address": "1 Demo Street, Johannesburg",
+  "timezone": "Africa/Johannesburg",
+  "language": "en",
+  "calendar": "single",
+  "cancellation_notice_hours": 24,
+  "reminder_hours": [
+    48,
+    2
+  ],
+  "handoff_minutes": 5,
+  "medical_aid_check_alert_minutes": 30,
+  "pending_slot_hold_minutes": 60,
+  "receptionist": {
+    "email": "reception@example.com",
+    "whatsapp": "+27000000000"
+  },
+  "emergency_numbers": [
+    "112",
+    "10177"
+  ],
+  "urgent_keywords": {
+    "gp": [
+      "chest pain",
+      "can't breathe",
+      "cannot breathe",
+      "severe bleeding",
+      "fainted",
+      "stroke"
+    ],
+    "dentist": [
+      "swollen face",
+      "swelling",
+      "bleeding won't stop",
+      "knocked out",
+      "severe pain"
+    ]
+  },
+  "appointment_types": {
+    "gp": [
+      {
+        "name": "Consultation",
+        "minutes": 15
+      },
+      {
+        "name": "Follow-up",
+        "minutes": 15
+      },
+      {
+        "name": "Repeat prescription review",
+        "minutes": 10
+      },
+      {
+        "name": "Vaccination",
+        "minutes": 10
+      }
+    ],
+    "dentist": [
+      {
+        "name": "Check-up & clean",
+        "minutes": 45
+      },
+      {
+        "name": "Filling",
+        "minutes": 45
+      },
+      {
+        "name": "Extraction",
+        "minutes": 45
+      },
+      {
+        "name": "Dental emergency",
+        "minutes": 30
+      }
+    ]
+  },
+  "note": "All minutes are placeholders. A real GP and dentist must confirm."
+}

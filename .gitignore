@@ -1,0 +1,14 @@
+# secrets and real data
+.env
+*.env
+secrets/
+*.key
+real-data/
+*.private.*
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+__pycache__/
+*.pyc

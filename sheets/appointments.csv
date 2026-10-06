@@ -1,0 +1,4 @@
+appointment_id,full_name,mobile,email,appointment_type,date_time,status,consent,payment_type,medical_aid_name,medical_aid_number,medical_aid_check,booked_for,patient_full_name,patient_age,reminder_48h_sent,reminder_2h_sent,notes_flag
+A0001,Demo Patient One,+27000000001,demo1@example.com,Check-up & clean,2026-10-14 09:00,booked,yes,cash,,,not needed,self,,,,,
+A0002,Demo Patient Two,+27000000002,demo2@example.com,Consultation,2026-10-14 10:30,confirmed,yes,medical_aid,DemoScheme,DEMO-0000,funds available,self,,,yes,,
+A0003,Demo Parent Three,+27000000003,demo3@example.com,Vaccination,2026-10-15 14:00,pending_medical_aid_check,yes,medical_aid,DemoScheme,DEMO-0001,pending,other,Demo Child Three,7,,,

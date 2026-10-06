@@ -1,0 +1,76 @@
+{
+  "note": "Replace [Practice], [address], [phone] per practice before submitting. Convert to your provider's format if needed. Meta decides the final category.",
+  "templates": [
+    {
+      "name": "booking_confirmation",
+      "category": "utility",
+      "language": "en",
+      "body": "Hi {{1}}, your {{2}} appointment at [Practice] for {{3}} is booked for {{4}} at {{5}}. Address: [address]. We need 24 hours' notice to cancel or change, or please call [phone].\nYour Friendly Doctor",
+      "buttons": [
+        "Confirm",
+        "Reschedule",
+        "Cancel"
+      ]
+    },
+    {
+      "name": "appointment_reminder_48h",
+      "category": "utility",
+      "language": "en",
+      "body": "Hi {{1}}, a reminder of the {{2}} appointment for {{3}} at [Practice] on {{4}} at {{5}}. Please confirm or let us know if you can't make it. We need 24 hours' notice to cancel, or please call [phone].\nYour Friendly Doctor",
+      "buttons": [
+        "Confirm",
+        "Reschedule",
+        "Cancel"
+      ]
+    },
+    {
+      "name": "appointment_reminder_2h",
+      "category": "utility",
+      "language": "en",
+      "body": "Hi {{1}}, a reminder that the appointment for {{2}} at [Practice] is today at {{3}}. See you soon, or call [phone] if you can't make it.\nYour Friendly Doctor",
+      "buttons": [
+        "I'll be there",
+        "Can't make it"
+      ]
+    },
+    {
+      "name": "appointment_cancelled",
+      "category": "utility",
+      "language": "en",
+      "body": "Hi {{1}}, the appointment on {{2}} at {{3}} has been cancelled. To book a new time, reply to this message.\nYour Friendly Doctor",
+      "buttons": []
+    },
+    {
+      "name": "slot_available_waitlist",
+      "category": "utility",
+      "language": "en",
+      "body": "Hi {{1}}, a slot has opened at [Practice] on {{2}} at {{3}}. Would you like it?\nYour Friendly Doctor",
+      "buttons": [
+        "Yes, book it",
+        "No thanks"
+      ]
+    },
+    {
+      "name": "missed_appointment_followup",
+      "category": "utility",
+      "language": "en",
+      "body": "Hi {{1}}, we missed you at [Practice] today at {{2}}. If you'd still like to be seen, reply here and we'll find you a new time.\nYour Friendly Doctor",
+      "buttons": [],
+      "risk": "may be recategorised as marketing"
+    },
+    {
+      "name": "staff_will_call",
+      "category": "utility",
+      "language": "en",
+      "body": "Hi {{1}}, our team at [Practice] will call you shortly about your appointment. If it's a bad time, reply here with a better time.\nYour Friendly Doctor",
+      "buttons": []
+    },
+    {
+      "name": "medical_aid_update",
+      "category": "utility",
+      "language": "en",
+      "body": "Hi {{1}}, an update on your booking at [Practice] for {{2}}: {{3}}. Please reply here if you have questions.\nYour Friendly Doctor",
+      "buttons": []
+    }
+  ]
+}

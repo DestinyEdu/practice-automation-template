@@ -1,0 +1,13 @@
+key,value
+practice_name,Demo Practice
+sign_off,Your Friendly Doctor
+practice_phone,+27000000000
+address,1 Demo Street Johannesburg
+timezone,Africa/Johannesburg
+cancellation_notice_hours,24
+reminder_hours,"48,2"
+handoff_minutes,5
+medical_aid_check_alert_minutes,30
+pending_slot_hold_minutes,60
+receptionist_email,reception@example.com
+receptionist_whatsapp,+27000000000
